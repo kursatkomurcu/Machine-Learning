@@ -22,7 +22,7 @@ acc_dict = {'LR': [],
             'RF': [],
             'RF_PCA': []}
 
-df = pd.read_csv('odev2.csv') # veriseti okundu
+df = pd.read_csv('data.csv') # veriseti okundu
 
 x = df.iloc[:, 0:12] # verisetinin sorular ve etiket kısımları ayrıldı
 y = df.iloc[:, 12]
